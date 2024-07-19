@@ -1,4 +1,4 @@
---[[
+ --[[
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░       ░▒▓███████▓▒░▒▓█▓▒░      ░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░ 
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░        
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░        
@@ -65,7 +65,7 @@ if not game:IsLoaded() then
 end
 
 -- Place checker
-if game.PlaceId ~= 112420803 and game.PlaceId ~= 115670532  then 
+if game.PlaceId ~= 11137575513 and game.PlaceId ~= 11137575513  then 
 	local response = Instance.new("BindableFunction")
 	function response.OnInvoke(answer)
 		if answer == "Yes" then
